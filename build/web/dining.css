@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: #fff;
+  color: #222;
+  line-height: 1.6;
+}
+
+.navbar {
+  background-color: #822b78;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+.logo-img {
+  height: 40px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+.nav-links li {
+  margin-left: 1.5rem;
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+.nav-links a:hover,
+.nav-links a.active {
+  color: #f4cfff;
+}
+
+.hero-dining {
+  background: url("dining1.jpg") no-repeat center center/cover;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 80px; 
+}
+.hero-text h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  color: #fff;
+  letter-spacing: 3px;
+}
+.divider {
+  font-size: 1.8rem;
+  color: #fff;
+  margin-top: 0.5rem;
+}
+
+.restaurant-gallery {
+  padding: 60px 30px;
+  text-align: center;
+}
+.gallery-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+.gallery-desc {
+  font-size: 1rem;
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+}
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.gallery-image {
+  flex: 1 1 400px;
+  max-width: 500px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+.gallery-image img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.4s ease;
+}
+.gallery-image img:hover {
+  transform: scale(1.05);
+}
+
+.footer {
+  background: #822b78;
+  color: #f4f4f4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 3rem 2rem;
+}
+.footer-box {
+  flex: 1 1 250px;
+  margin: 1rem;
+}
+.footer-box h3,
+.footer-box h4 {
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+.footer-box a,
+.footer-box p {
+  color: #f0d6ef;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  display: block;
+  font-size: 0.95rem;
+}
+.footer-box a:hover {
+  color: #fff;
+}
+
+.dining-section {
+  max-width: 1000px;
+  margin: 80px auto;
+  padding: 0 20px;
+  background: #fdfdfd;
+}
+
+.dining-section h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #4e2f2f;
+  font-family: 'Georgia', serif;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.dining-box {
+  background: #fff;
+  border-left: 4px solid #822b78;
+  padding: 25px 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  transition: transform 0.3s ease;
+}
+
+.dining-box:hover {
+  transform: translateY(-5px);
+}
+
+.dining-box h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.dining-box .desc {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.dining-box p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}

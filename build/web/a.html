@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Luxury Resort</title>
+  <link rel="stylesheet" href="a.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">
+    <img src="logo.jpg"  />
+    <span class="logo-text">WaterLily Hotel</span>
+  </div>
+  <ul class="nav-links">
+     <li><a href="a.html">Home</a></li>
+    <li><a href="rooms.html">Rooms</a></li>
+    <li><a href="dining.html">Dining</a></li>
+    <li><a href="gallery.html">Banquets</a></li>
+    <li><a href="contact.html">Contact</a></li>
+</nav>
+
+  <section class="hero-slider">
+    <div class="slides">
+      <div class="slide" style="background-image: url('r1.jpg');"></div>
+      <div class="slide" style="background-image: url('r2.jpg');"></div>
+      <div class="slide" style="background-image: url('r3.jpg');"></div>
+    </div>
+    <div class="hero-content">
+      <h1>Welcome to Luxury Escape</h1>
+      <p>Experience Tranquility and Comfort Like Never Before</p>
+      <a href="contact.html" class="book-btn">Book Now</a>
+    </div>
+  </section>
+    
+<section class="welcome-section">
+  <h2>WELCOME TO LUXURY ESCAPE</h2>
+  <h3>CARVING EXCELLENCE THROUGH UNMATCHED HOSPITALITY.</h3>
+  <p class="intro-text">
+    Luxury Escape, located amidst the serene beauty of Goa, offers an unmatched blend of natural charm and modern comfort.
+    Just 20 minutes from the airport, it promises an ideal stay for business and leisure travelers alike. Enjoy gourmet
+    dining, luxury accommodations, unforgettable weddings, and seamless meetings — all in one place.
+  </p>
+
+  <div class="services-grid">
+  <div class="service-box">
+    <img src="hotel.jpg" alt="Rooms">
+    <h4>ROOMS</h4>
+    <p>Luxury Accommodation</p>
+
+    <input type="checkbox" id="rooms-toggle" class="toggle-box">
+    <label for="rooms-toggle" class="detail-btn">Details</label>
+    <div class="service-info">
+      Enjoy premium bedding, ocean views, private balconies, and world-class service in our luxury rooms.
+    </div>
+  </div>
+
+  <div class="service-box">
+    <img src="dining.jpg" alt="Dining">
+    <h4>DINING</h4>
+    <p>A Delightful Experience</p>
+
+    <input type="checkbox" id="dining-toggle" class="toggle-box">
+    <label for="dining-toggle" class="detail-btn">Details</label>
+    <div class="service-info">
+      Experience fine dining crafted by expert chefs, featuring international and traditional Goan cuisine.
+    </div>
+  </div>
+
+  <div class="service-box">
+    <img src="wedding.jpg" alt="Weddings">
+    <h4>WEDDINGS</h4>
+    <p>Made Heavenly</p>
+
+    <input type="checkbox" id="wedding-toggle" class="toggle-box">
+    <label for="wedding-toggle" class="detail-btn">Details</label>
+    <div class="service-info">
+      Celebrate your dream wedding with our grand décor, serene settings, and full event planning services.
+    </div>
+  </div>
+
+  <div class="service-box">
+    <img src="meetings.jpg" alt="Meetings">
+    <h4>MEETINGS</h4>
+    <p>All About Business</p>
+
+    <input type="checkbox" id="meeting-toggle" class="toggle-box">
+    <label for="meeting-toggle" class="detail-btn">Details</label>
+    <div class="service-info">
+      Our modern conference halls and boardrooms are equipped with all facilities for productive meetings.
+    </div>
+  </div>
+</div>
+</section>
+  
+  <section class="restaurant-section">
+  <h2 class="restaurant-heading">RESTAURANTS</h2>
+
+  <input type="radio" name="tab" id="tab-raindrop" checked>
+  <input type="radio" name="tab" id="tab-oriel">
+  <input type="radio" name="tab" id="tab-eat">
+
+  <div class="restaurant-tabs">
+    <label for="tab-raindrop" class="tab-label">
+      <img src="raindrop.png" alt=""> RAINDROP
+    </label>
+    <label for="tab-oriel" class="tab-label">
+      <img src="oriel.png" alt=""> ORIEL
+    </label>
+    <label for="tab-eat" class="tab-label">
+      <img src="eat n drive.png" alt=""> EAT N DRIVE
+    </label>
+  </div>
+
+  <div class="tab-content" id="content-raindrop">
+    <img src="raindrop.png" alt="Raindrop">
+    <div class="text">
+      <h5>FINE DINE RESTAURANT</h5>
+      <h3>RAINDROP</h3>
+      <p>This multi-cuisine restaurant, with its vibrant atmosphere and friendly staff, dining becomes a blissful experience.</p>
+      <p>The place is perfectly synonymous for great airy ambiance, food taste and enchanting hospitality. Experience the magic created by experienced chefs with lip-smacking and distinct menu with flavours from India & the world.</p>
+    </div>
+  </div>
+
+  <div class="tab-content" id="content-oriel">
+    <img src="oriel.png" alt="Oriel">
+    <div class="text">
+      <h5>CASUAL DINING</h5>
+      <h3>ORIEL</h3>
+      <p>Oriel offers a perfect blend of casual and comfort. A lovely spot for relaxed conversations over delightful meals.</p>
+      <p>Enjoy the calming interiors, prompt service, and a menu that brings together global favorites and local charm.</p>
+    </div>
+  </div>
+
+  <div class="tab-content" id="content-eat">
+    <img src="eat n drive.png" alt="Eat N Drive">
+    <div class="text ">
+      <h5>DRIVE-IN DELIGHT</h5>
+      <h3>EAT N DRIVE</h3>
+      <p>Perfect for travelers and locals on the go. Eat N Drive offers quick bites with uncompromised taste and hygiene.</p>
+      <p>Pull up, pick your favorite, and drive off satisfied — it’s convenience and quality rolled into one!</p>
+    </div>
+  </div>
+</section>
+
+<section class="showcase-section">
+  <div class="column updates">
+    <h3>UPDATES</h3>
+    <iframe src="https://www.facebook.com/plugins/page.php?href=https://www.facebook.com/hotelwaterlily/&tabs=timeline&width=300&height=300&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+      width="300" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
+      allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+  </div>
+
+  <div class="column hotel-showcase">
+    <h3>HOTEL SHOWCASE</h3>
+    <div class="main-image">
+    </div>
+    <div class="thumbnails">
+      <img src="h1.png" alt="">
+      <img src="h2.png" alt="">
+      <img src="h3.png" alt="">
+      <img src="h4.png" alt="">
+    </div>
+  </div>
+
+  <div class="column guest-says">
+    <h3>GUESTS SAYS</h3>
+    <div class="testimonial-box">
+      <p>The food was excellent and was liked by our guests.</p>
+      <p>The staff was courteous and banquet hall was decorated nicely. Food was ready on time.</p>
+    </div>
+    <p class="guest-name">MRS. PRIYANKA MISHRA</p>
+  </div>
+</section>
+    
+  <footer class="footer">
+    <div class="footer-box">
+      <h3>Waterlily hotel</h3>
+      <p>Your dream vacation awaits at our seaside resort.</p>
+    </div>
+    <div class="footer-box">
+      <h4>Quick Links</h4>
+        <a href="a.html">Home</a>
+    <a href="rooms.html">Rooms</a>
+    <a href="dining.html">Dining</a>
+    <a href="banquets.html">Banquets</a>
+    </div>
+    <div class="footer-box">
+      <h4>Contact Us</h4>
+      <p>Email: info@luxuryscape.com</p>
+      <p>Phone: +91 9876543210</p>
+      <p>Location: Goa, India</p>
+    </div>
+  </footer>
+
+</body>
+</html>
